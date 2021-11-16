@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    margin: 0 10%;
+    max-width: 1300px;
+}
+
+.hero__title{
+    color: blue;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+/* le cambie la altura y el ancho que pedian para que no le saliera la barra de scroll */
+#thirdDiv{
+    height: 400px;
+    width: 100%; 
+    background-color: #7C7472;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 50px;
+    border: 2px solid rgba(219, 199, 20, 0.808);
+}
+
+/* le puse un display flex para que no aparesca la barra de scroll*/
+.nav__bar{    
+    list-style: none;  
+    display: flex;
+    padding: 0; 
+    margin: 0;
+    gap: 50px;
+}
+
+.list__link{
+    text-decoration: none;
+}
+
+/* le cambie la altura tambien */
+.img{
+    width: 400px;
+    height: 250px;
+}
